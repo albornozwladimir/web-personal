@@ -1,0 +1,30 @@
+@import "../../../scss/index.scss";
+
+.menuTop {
+  display: flex;
+  margin-left: 10px;
+
+  button {
+    color: $font-light;
+
+    &:hover {
+      color: $primary-color;
+    }
+
+    &:focus,
+    &:active {
+      color: $font-light;
+    }
+  }
+
+  .menuTopLeft {
+    .sinLogo {
+      color: $font-grey;
+    }
+  }
+
+  .menuTopRight {
+    position: absolute;
+    right: 0;
+  }
+}

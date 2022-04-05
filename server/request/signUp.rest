@@ -1,0 +1,10 @@
+POST http://127.0.0.1:3977/api/v0.1/sign-up
+Content-Type: application/json
+
+{
+  "name": "Jhon",
+  "lastname": "McClane",
+  "email": "jhon@example.com",
+  "password": "tester",
+  "repeatPassword": "tester"
+}

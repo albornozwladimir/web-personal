@@ -1,0 +1,20 @@
+{
+  "name": "server-wp",
+  "version": "0.0.1",
+  "description": "Backend web personal",
+  "main": "index.js",
+  "author": "wal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.3",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.9"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
